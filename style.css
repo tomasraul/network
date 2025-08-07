@@ -54,3 +54,23 @@ article{
     margin-top: 5px;
     border-radius: 10px;
 }
+
+@media (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+    nav > a > abbr img{
+        width: 20%;
+        padding-left: 10px;
+    }
+    .container > article > form > div > label > img{
+        width: 15%;
+    }
+    #imei{
+        width: 100%;
+    }
+    #calc{
+        width: 100%;
+    }
+    
+}
